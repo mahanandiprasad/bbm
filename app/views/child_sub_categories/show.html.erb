@@ -1,0 +1,29 @@
+<!-- <p id="notice"><%= notice %></p> -->
+
+<p>
+  <strong>Name:</strong>
+  <%= @child_sub_category.name %>
+</p>
+
+<p>
+  <strong>Descriptions:</strong>
+  <%= @child_sub_category.descriptions %>
+</p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @child_sub_category.slug %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @child_sub_category.category %>
+</p>
+
+<p>
+  <strong>Subcategory:</strong>
+  <%= @child_sub_category.subcategory %>
+</p>
+
+<%= link_to 'Edit', edit_child_sub_category_path(@child_sub_category) %> |
+<%= link_to 'Back', child_sub_categories_path %>
